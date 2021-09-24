@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap'); /*подключаем шрифты google fonts*/
+
+body {
+    margin: 0%; 
+}
+
+header {
+    background-color: rgba(230, 132, 132, 0.685); 
+    color:black;
+    background-image: url(images/flowers.jpg);
+    background-size: cover;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.container2 {
+    max-width: 75%;
+    margin: 0 auto; 
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto; 
+    
+}
+
+.main-menu
+{
+    font-size:1em;
+    font-weight: bold;
+    padding: 20px 0; /*определяет размер области*/
+}
+
+.btn {
+    text-decoration: none;
+    color: rgb(46, 36, 192);
+    font-weight: bold;
+    border: 2px solid rgb(46, 36, 192);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transition: color 0.5s, border-color 0.5s;
+    color: silver;
+    border-color: blue;
+}
+
+.avatar {
+    height: 500px;         /*размер*/
+    text-align: center;    /*расположение фото по центру*/
+    margin: 2rem 0;        
+}
+
+.avatar img{
+    height: 100%;
+
+}
+
+.text-right {
+    text-align: right;
+    
+}
+
+p {
+    text-align: left; /*текст заголовка p располагаем по ширине (по левой стороне)*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+footer {
+    background-color: rgba(230, 132, 132, 0.685);
+    color:black;
+    padding: 10px 0;
+    margin-top: 2rem;
+}

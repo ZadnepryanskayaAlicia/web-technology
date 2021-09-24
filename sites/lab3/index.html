@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Блочная модель</title>
+</head>
+<body>
+    <Body bgcolor="lightblue"> <!розовый фон веб-страницы-->
+
+    <header>
+        <nav class="main-menu clearfix">
+            <div class="container">
+                <div class="navigation">
+                    <a href ="#">Главная</a>
+                    <a href ="#">Информация</a>
+                    <a href ="#">Новости</a>
+                    <a href ="#">Прайс-лист</a>
+                    <a href ="#">Магазины</a>
+                    <a href ="#">Контакты</a>
+                </div>
+
+                <div class="profile">
+                    <a href ="#">Вход</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            
+
+            <aside class="sidebar">
+                <h1 class="h1">Категория товаров</h1>
+                <form>
+                    <section>
+                        <h1>Производители</h1>
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacture" id="manufacture1">
+                            <label for="manufacture1">Производитель 1</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacture" id="manufacture2">
+                            <label for="manufacture2">Производитель 2</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacture" id="manufacture3">
+                            <label for="manufacture3">Производитель 3</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacture" id="manufacture4">
+                            <label for="manufacture4">Производитель 4</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" name="manufacture" id="manufacture5">
+                            <label for="manufacture5">Производитель 5</label>
+                        </div>
+                        
+                        <h1>Группа товаров</h1>
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group1">
+                            <label for="group1">Группа 1</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group2">
+                            <label for="group2">Группа 2</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group3">
+                            <label for="group3">Группа 3</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group4">
+                            <label for="group4">Группа 4</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" name="group" id="group5">
+                            <label for="group5">Группа 5</label>
+                        </div>
+
+                    </section>
+                </form>
+            </aside>
+                        <section class="goods-list">
+                            <h1 class="h1">Товары</h1>
+                            <div class="goods">
+                                <figure class="good-img"> <!применяем свойства для фото из style.css-->
+                                    <img src="images/macbook.jpg" alt="macbook">
+                                </figure>
+                            <div class="goods-decription">
+                                <p>Macbook Pro</p> 
+                            </div>
+                            <div class="price-and-buy">
+                                <span class ="price">250000 руб.</span><a class="buy" href="#">Заказать</a> 
+                            </div>
+                            </div>
+
+                            <div class="goods">
+                                <figure class="good-img"> <!применяем свойства для фото из style.css-->
+                                    <img src="images/acer.jpg" alt="acer">
+                                </figure>
+                            <div class="goods-decription">
+                                <p>Acer</p> 
+                            </div>
+                            <div class="price-and-buy">
+                                <span class ="price">30000 руб.</span><a class="buy" href="#">Заказать</a> 
+                            </div>
+                            </div>
+
+                            <div class="goods">
+                                <figure class="good-img"> <!применяем свойства для фото из style.css-->
+                                    <img src="images/hp.jpg" alt="hp">
+                                </figure>
+                            <div class="goods-decription">
+                                <p>HP</p> 
+                            </div>
+                            <div class="price-and-buy">
+                                <span class ="price">45000 руб.</span><a class="buy" href="#">Заказать</a> 
+                            </div>
+                            </div>
+
+                            <div class="goods">
+                                <figure class="good-img"> <!применяем свойства для фото из style.css-->
+                                    <img src="images/samsung.jpg" alt="samsung">
+                                </figure>
+                            <div class="goods-decription">
+                                <p>Samsung</p> 
+                            </div>
+                            <div class="price-and-buy">
+                                <span class ="price">75000 руб.</span><a class="buy" href="#">Заказать</a> 
+                            </div>
+                            </div>
+
+                            <div class="goods">
+                                <figure class="good-img"> <!применяем свойства для фото из style.css-->
+                                    <img src="images/sony.jpg" alt="sony">
+                                </figure>
+                            <div class="goods-decription">
+                                <p>Sony</p> 
+                            </div>
+                            <div class="price-and-buy">
+                                <span class ="price">90000 руб.</span><a class="buy" href="#">Заказать</a> 
+                            </div>
+                            </div>
+
+                            <div class="goods">
+                            <figure class="good-img"> 
+                                <img src="images/huawei.jpg" alt="huawei">
+                            </figure>
+                            <div class="goods-decription">
+                                <p>Huawei</p> 
+                            </div>
+                            <div class="price-and-buy">
+                                <span class ="price">55000 руб.</span><a class="buy" href="#">Заказать</a> 
+                            </div>
+                            </div>
+                        </section>
+        </div>
+    </main>
+</body>
+</html>
