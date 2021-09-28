@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    min-width: 300;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.navigation{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile{
+    display: flex;
+}
+
+.flex-wrapper{
+    display: flex;
+}
+
+/* .flex-content-wrapper{
+    display: flex;
+    flex-direction: column;
+} */
+
+.h{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.header{
+    background-color: rgb(94, 186, 216);
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: rgb(0, 183, 255);
+    box-sizing: border-box;
+}
+
+.main-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-menu a{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 15px ;
+    color: black;
+}
+
+section1 {
+    width: 150px;
+} */
+.form-group{
+    margin-bottom: 5px;
+}
+.goods-list{
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.goods{
+    display: inline-block;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding: 20px;
+    
+    margin-bottom: 10px;
+    min-height: 430px;
+    min-width: 300px;
+    
+}
+
+.good-img img{
+max-width: 280px;
+height: auto;
+text-align: center;
+margin: 0; 
+display: block; 
+display: inline-block; 
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+.price-and-buy{
+    height: 50px;
+}
+
+ .price{ /*цена на товар */
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: rgba(228, 28, 228, 0.582);
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.avatar img{
+    height: 100%;
+}
+
+.buy{
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px; 
+}
+
+.sidebar{
+    /* font-size: 5px; */
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.pagination{
+    padding-top: 20px;
+}
+
+.pagination .btn{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.pagination .btn.active{
+    background-color: antiquewhite;
+    color: #000;
+}
+
+@media all and (max-width: 600px){
+    .main-menu{
+        flex-direction: column;
+    }
+    .navigation{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile{
+        justify-content: center;
+    }
+    .flex-wrapper{
+        flex-direction: column;
+    }
+}
